@@ -8,5 +8,9 @@ const person2 = {
   возраст: 27
 };
 
-console.log(person1);
-console.log(person2);
+function printPerson(person) {
+  console.log(person);
+}
+
+printPerson(person1);
+printPerson(person2);
